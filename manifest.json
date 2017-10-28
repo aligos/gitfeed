@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "gitfeed",
+  "description": "Chrome extension for github feed.",
+  "version": "1.0.0",
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Github Feed",
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [],
+  "key":
+    "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXZ6+N4gRLyUUtj79Z3TClsrA32yU9ekkdKXlGylaRhtjMNLN+oBekfDsBfASdkGu35r48v+GiHgCTeySFgm/MfOBavutudcr1Cm/+CD6Y7XSQBMHQn06sJgsMk0eG6FcP797Ofig2MHmouaoHCPfpmXfcbgZZYioh29PWJ6oq7QIDAQAB",
+  "permissions": ["identity", "https://github.com/"]
+}
